@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #ea1d76;
+  --color-brand-blue: #a5def2;
+  --color-brand-pink-dark: #cc1563;
+  --color-brand-blue-dark: #8ccce4;
+}
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-900;
+  }
+}
