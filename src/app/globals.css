@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-pink: #ea1d76;
-  --color-brand-blue: #a5def2;
+  --color-brand-pink: #EA1D76;
   --color-brand-pink-dark: #cc1563;
+  --color-brand-blue: #A4DDF1;
   --color-brand-blue-dark: #8ccce4;
+  --color-stone-900: #1C1917;
+  --color-stone-50: #FAFAF9;
 }
 
 @layer base {
