@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ShoppingBag, MessageCircle, MapPin, Phone, Clock, ChevronRight, Store, PackageOpen, Instagram } from "lucide-react";
+import { ShoppingBag, MessageCircle, MapPin, Phone, Clock, ChevronRight, Store, PackageOpen } from "lucide-react";
 
 export default function Home() {
   const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=5519996189999&text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido%21";
@@ -213,7 +213,11 @@ export default function Home() {
                     <h4 className="font-bold text-stone-900 text-lg">Contato</h4>
                     <p className="text-stone-600 mt-1">WhatsApp: (19) 99618-9999<br/>Telefone: (19) 3435-5599</p>
                     <a href="https://instagram.com/cantinho_doce_piracicaba" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 mt-2 text-brand-pink hover:text-brand-pink-dark font-medium transition-colors">
-                      <Instagram className="w-4 h-4" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                      </svg>
                       @cantinho_doce_piracicaba
                     </a>
                   </div>
