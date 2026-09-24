@@ -72,14 +72,9 @@ export default function Home() {
           </div>
           
           <div className="flex-1 w-full relative order-1 lg:order-2">
-            {/* 
-              NOTA PARA O DESENVOLVEDOR / USUÁRIO:
-              A imagem abaixo deve ser substituída pela 'fachada.jpg' assim que feito o upload.
-              Estou usando 'doces_pote.jpg' temporariamente para não quebrar o layout.
-            */}
             <div className="relative aspect-[4/3] lg:aspect-[5/4] rounded-[24px] overflow-hidden shadow-lg border border-stone-100">
               <Image 
-                src="/images/doces_pote.jpg" 
+                src="/images/fachada.jpg" 
                 alt="Fachada da Cantinho Doce" 
                 fill 
                 className="object-cover object-center"
