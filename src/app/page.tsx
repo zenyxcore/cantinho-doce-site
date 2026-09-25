@@ -81,7 +81,7 @@ export default function Home() {
             <div className="relative aspect-[4/3] lg:aspect-[5/4] rounded-[24px] overflow-hidden shadow-lg border border-stone-100">
               <Image 
                 src="/images/fachada.jpg" 
-                alt="Fachada da Cantinho Doce" 
+                alt="Fachada do Cantinho Doce" 
                 fill 
                 className="object-cover object-center"
                 priority
@@ -160,7 +160,7 @@ export default function Home() {
             </h2>
             <div className="space-y-6 text-stone-300 text-lg leading-relaxed">
               <p>
-                A <strong>Cantinho Doce</strong>, localizada no centro de Piracicaba, é especialista em atacado e varejo de doces. Com 32 anos de tradição no mercado, somos conhecidos por oferecer os melhores preços da cidade sem comprometer a qualidade.
+                O <strong>Cantinho Doce</strong>, localizado no centro de Piracicaba, é especialista em atacado e varejo de doces. Com 32 anos de tradição no mercado, somos conhecidos por oferecer os melhores preços da cidade sem comprometer a qualidade.
               </p>
               <p>
                 Além de centenas de doces, também oferecemos artigos essenciais para o seu negócio: copos descartáveis, guardanapos, canudos, sacolas plásticas e muito mais.
@@ -176,7 +176,7 @@ export default function Home() {
               <div className="bg-stone-800/50 p-6 rounded-[18px] border border-stone-800">
                 <Store className="w-8 h-8 text-brand-blue mb-4" />
                 <h4 className="text-xl font-bold mb-2 text-white">Retirada na loja</h4>
-                <p className="text-stone-400">Escolha seus produtos pelo catálogo, envie o pedido para separação e retire diretamente na Cantinho Doce.</p>
+                <p className="text-stone-400">Escolha seus produtos pelo catálogo, envie o pedido para separação e retire diretamente no Cantinho Doce.</p>
               </div>
             </div>
           </div>
