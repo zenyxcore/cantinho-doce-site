@@ -6,6 +6,10 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "Cantinho Doce | Atacado e Varejo em Piracicaba",
+  icons: {
+    icon: "/images/logo.png?v=20261015",
+    apple: "/images/logo.png?v=20261015",
+  },
   description: "Há 29 anos com o melhor preço e a maior variedade da cidade. Doces, chocolates, amendoins, salgadinhos e artigos para festa.",
   openGraph: {
     title: "Cantinho Doce | Atacado e Varejo em Piracicaba",
