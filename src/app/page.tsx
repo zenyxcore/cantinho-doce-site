@@ -11,7 +11,7 @@ const WhatsAppIcon = ({ className = "w-6 h-6" }: { className?: string }) => (
 
 export default function Home() {
   const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=5519996189999&text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido%21";
-  const STORE_LINK = "https://www.vitrineja.store/cantinho-doce";
+  const STORE_LINK = "https://loja.cantinhodoce.com.br/";
 
   return (
     <main className="min-h-screen font-sans selection:bg-brand-pink selection:text-white bg-stone-50 pb-16 lg:pb-0">
